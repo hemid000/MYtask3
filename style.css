@@ -11,7 +11,16 @@ table th{
     background-color: rgb(133, 169, 107);
 }
 
+table tbody tr td:nth-child(even){
+    text-align: center;
+
+}
+table tbody tr td:nth-child(odd){
+    text-align: center;
+
+}
+
 table tbody tr:nth-child(even){
-    background-color: rgb(170, 170, 170);
+    background-color: rgb(194, 193, 193);
 
 }
